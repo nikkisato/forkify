@@ -1,0 +1,34 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikkisato/forkify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikkisato/forkify/issues"
+  },
+  "homepage": "https://github.com/nikkisato/forkify#readme",
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.605",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.605",
+    "@parcel/packager-css": "^2.0.0-nightly.605",
+    "@parcel/packager-html": "^2.0.0-nightly.605",
+    "@parcel/transformer-css": "^2.0.0-nightly.605",
+    "@parcel/transformer-html": "^2.0.0-nightly.605",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.605",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.605",
+    "@parcel/transformer-sass": "^2.0.0-nightly.605",
+    "parcel": "^2.0.0-beta.1",
+    "postcss": "^8.2.6",
+    "sass": "^1.32.8"
+  }
+}
